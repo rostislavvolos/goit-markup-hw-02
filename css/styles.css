@@ -72,11 +72,16 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-    
 }
 .site-nav .nelink {
     color: var(--accent-color);
     text-decoration: none;
+    font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--accent-color);
+
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -117,7 +122,7 @@ text-transform: uppercase;
 .auth-low .post,
 .number {  
    color: rgba(255, 255, 255, 0,6);
-   text-decoration: none;  
+   text-decoration: none;
 }
 
 .auth-low .post,
@@ -213,6 +218,11 @@ color: var(--title-text-color);
 
 }
 
+.auth-low {
+  background-color: var(--dark-backgroung);
+}
+
+
 /* PORTFOLIO */
 
 .auth-nav-2 .portfolio-post,
@@ -269,6 +279,7 @@ color: var(--accent-color);
 line-height: 1.71;
 letter-spacing: 0.03em;
 
+
 color: var(--title-text-color);
 }
 
@@ -294,6 +305,22 @@ color: var(--footer-text-color);
 }
 
 
+
+.logo-studio {
+  color: #212121;
+}
+
+.logo-studio2 {
+  color: #212121;
+}
+
+.logo-studio3 {
+  color: #212121;
+}
+
+.logo-studio4 {
+  color: #212121;
+}
 
  
 
