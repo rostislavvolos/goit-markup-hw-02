@@ -188,6 +188,7 @@ color: var(--primary-text-color);
   font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+font-style: normal;
 
 color: var(--title-text-color);
 }
@@ -196,6 +197,7 @@ color: var(--title-text-color);
   font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+text-decoration: none;
 
 color: var(--footer-text-color);
 }
@@ -204,6 +206,7 @@ color: var(--footer-text-color);
   font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+text-decoration: none;
   
 color: var(--footer-text-color);
 }
@@ -222,6 +225,9 @@ color: var(--title-text-color);
   background-color: var(--dark-backgroung);
 }
 
+.low-footer {
+  background-color: var(--dark-backgroung); 
+}
 
 /* PORTFOLIO */
 
@@ -278,6 +284,7 @@ color: var(--accent-color);
   font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+font-style: normal;
 
 
 color: var(--title-text-color);
@@ -287,6 +294,7 @@ color: var(--title-text-color);
   font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+text-decoration: none;
 
 color: var(--footer-text-color);
 }
@@ -295,31 +303,33 @@ color: var(--footer-text-color);
   font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+text-decoration: none;
 
 color: var(--footer-text-color);
 }
 
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
 }
 
 
 
 .logo-studio {
-  color: #212121;
+  color: var(--caption-text-color);
 }
 
 .logo-studio2 {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .logo-studio3 {
-  color: #212121;
+  color: var(--caption-text-color);
 }
 
 .logo-studio4 {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
  
