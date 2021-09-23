@@ -231,10 +231,27 @@ color: var(--title-text-color);
 
 /* PORTFOLIO */
 
-.auth-nav-2 .portfolio-post,
-.portfolio-number {
+.auth-nav-2 
+.portfolio-post {
 text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #757575;
 }
+
+.auth-nav-2
+.portfolio-number {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  
+  color: #757575;
+  }
 
 .portfolio-number:hover,
 .portfolio-number:focus {
@@ -249,6 +266,14 @@ color: var(--accent-color);
 .portfolio-number,
 .portfolio-post {
   color: var(--caption-text-color);
+}
+
+.list {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+
+letter-spacing: 0.03em;
 }
 
 .portfolio-images {
